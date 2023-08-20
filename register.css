@@ -1,0 +1,36 @@
+body{
+    font-family:arial;
+    background-color:aqua;
+    margin: 0%;  
+    padding: 0%;
+    display:flexbox;
+    justify-self: center;
+    align-items: center;
+    height: 200vh;
+}
+h1{
+    text-align: start;
+    color: black;
+}
+form{
+    background-color: azure;
+    border-radius: 18px;
+    padding: 30px;
+    width: 400px;
+}
+label{
+    display: flex;
+    font-size: medium;
+    font-style:italic;
+    margin-top: spx;
+}
+input{
+    width: 50%;
+    color: black;
+    padding:6px;
+    margin-top: 8px;
+    border-radius: 2px;
+}
+button{
+    width: 100%;
+}
