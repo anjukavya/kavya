@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <title>
+            order list
+        </title>
+    </head>
+    <body>
+        <ul id="list">
+            <li>mangoes</li>
+            <li>bananas</li>
+            <li>oranges</li>
+        </ul>
+        <button onclick="replacecontent()"> Replace Content</button>
+
+        <script>
+            var list=document.getElementById("list")
+            function replacecontent(){
+                list.innerHTML="<li> RRR </li>"+ "<li> Ntr </li>"
+                +"<li> jay krishna </li>"
+            }
+        </script>
+    </body>
+</html>
